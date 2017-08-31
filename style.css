@@ -1,0 +1,28 @@
+.border1{
+	border: 3px solid black;
+	margin-bottom: 10px
+}
+.border2{
+	border: 2px solid black;
+	margin-bottom: 10px
+}
+.border3{
+	border: 1px solid black;
+	margin-bottom: 10px
+}
+.bordercollie{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.verticalline1{
+    border-left: 1px solid black;
+}
+
+@media (min-width: 992px){
+.centro{
+	width: 20%;
+}
+@media (min-width: 702px){
+.centro{
+	width: 20%;
+}
