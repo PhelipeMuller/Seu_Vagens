@@ -1,0 +1,78 @@
+body{
+	background:black;
+	font-family:"Potatoes And Peas";
+	text-align:center;
+}
+header{
+	background:	#7FFFD4;
+	font-family:"Potatoes And Peas";
+	text-transform:uppercase;
+}
+header::after { 
+    content: " ";
+	display: table;
+	clear: both;
+	background:blue;
+}
+nav{
+	text-align:center;
+}
+nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+nav li{
+	display:inline-block;
+	margin-left: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position:relative;
+}
+nav a{
+	color: purple;
+	text-decoration:none;
+	font-size: 160%;
+}
+nav a:hover{
+	text-decoration:none;
+	color:	#5F9EA0;
+}
+nav a::before{
+	content:'';
+	display:block;
+	height:5px;
+	background-color:	#5F9EA0;
+
+	position: absolute;
+	top:0;
+	width:0%;
+
+	transition:all ease-in-out 200ms;
+}
+nav a:hover::before{
+	width:100%;
+}
+.linha{
+	border:1px solid black;
+}
+.indent{
+	margin-left:20px;
+}
+div h1{
+	font-family:"Potatoes And Peas";
+	font-size:300%;
+}
+div h2{
+	font-family:"Potatoes And Peas";
+	font-size:200%;
+}
+div p{
+	font-family:"Potatoes And Peas";
+	font-size:120%;
+}
+div {
+	font-family:"Potatoes And Peas";
+	font-size:120%;
+}
+
