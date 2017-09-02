@@ -1,7 +1,7 @@
 body{
-	background:black;
 	font-family:"Potatoes And Peas";
 	text-align:center;
+	padding:20px;
 }
 header{
 	background:	#7FFFD4;
@@ -24,7 +24,8 @@ nav ul{
 }
 nav li{
 	display:inline-block;
-	margin-left: 70px;
+	margin-left: 30px;
+	margin-right: 30px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	position:relative;
@@ -54,7 +55,7 @@ nav a:hover::before{
 	width:100%;
 }
 .linha{
-	border:1px solid black;
+	border:1px black;
 }
 .indent{
 	margin-left:20px;
@@ -75,4 +76,10 @@ div {
 	font-family:"Potatoes And Peas";
 	font-size:120%;
 }
-
+.corfundo{
+	background:rgba(2, 216, 208, 0.21);
+}
+.corprojetos{
+	margin:30px;
+	background:rgba(255, 127, 127, 0.86);;
+}
