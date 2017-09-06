@@ -1,34 +1,113 @@
-.border1{
-	border: 3px solid black;
-	margin-bottom: 10px
+body{
+	font-family:"Potatoes And Peas";
+	text-align:center;
+	padding-top:20;
 }
-.border2{
-	border: 2px solid black;
-	margin-bottom: 10px
+header{
+	background:	#CBFFEE;
+	font-family:"Potatoes And Peas";
+	text-transform:uppercase;
 }
-.border3{
-	border: 1px solid black;
-	margin-bottom: 10px
+header::after { 
+    content: " ";
+	display: table;
+	clear: both;
+	background:blue;
 }
-.bordercollie{
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+nav{
+	text-align:center;
 }
-.verticalline1{
-    border-left: 1px solid black;
+nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+nav li{
+	display:inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position:relative;
+}
+nav a{
+	color: #3F7F6D;
+	text-decoration:none;
+	font-size: 160%;
+}
+nav a:hover{
+	text-decoration:none;
+	color:	#5F9EA0;
+}
+nav a::before{
+	content:'';
+	display:block;
+	height:5px;
+	background-color:	#5F9EA0;
+
+	position: absolute;
+	top:0;
+	width:0%;
+
+	transition:all ease-in-out 200ms;
+}
+nav a:hover::before{
+	width:100%;
+}
+img{
+	border-radius: 80px;
+	width:100%;
 }
 .linha{
-	border:1px solid black;
+	border:1px black;
 }
 .indent{
 	margin-left:20px;
 }
+div h1{
+	font-family:"Potatoes And Peas";
+	font-size:300%;
+}
+div h2{
+	font-family:"Potatoes And Peas";
+	font-size:200%;
+}
+div a p{
+	text-align:center;
+	font-family:"Potatoes And Peas";
+	font-size:120%;
+	color: #3F7F6D;
+}
+div a h2{
+	text-align:center;
+	font-family:"Potatoes And Peas";
+	font-size:200%;
+	color: #3F7F6D;
+}
+div a p:hover{
+	text-decoration:none;
+}
+div a h2:hover{
+	text-decoration:none;
+}
+div p{
+	text-align:left;
+	font-family:"Potatoes And Peas";
+	font-size:120%;
+}
+div {
+	font-family:"Potatoes And Peas";
+	font-size:120%;
+}
+.container{
+	border-radius: 10px;
+}
+.corfundo{
+	background:radial-gradient(#72E5C5,#3F7F6D);
+}
+.corprojetos{
+	margin:30px;
+	background:#7FFFD4;
+}
 
-@media (min-width: 992px){
-.centro{
-	width: 20%;
-}
-@media (min-width: 702px){
-.centro{
-	width: 20%;
-}
+
