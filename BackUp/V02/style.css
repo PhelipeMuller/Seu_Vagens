@@ -4,7 +4,7 @@ body{
 	padding-top:20;
 }
 header{
-	background:	radial-gradient(#72E5C5,#3F7F6D);
+	background:	#CBFFEE;
 	font-family:"Potatoes And Peas";
 	text-transform:uppercase;
 }
@@ -37,13 +37,13 @@ nav a{
 }
 nav a:hover{
 	text-decoration:none;
-	color:	white;
+	color:	#5F9EA0;
 }
 nav a::before{
 	content:'';
 	display:block;
 	height:5px;
-	background-color:	white;
+	background-color:	#5F9EA0;
 
 	position: absolute;
 	top:0;
@@ -54,8 +54,8 @@ nav a::before{
 nav a:hover::before{
 	width:100%;
 }
-a img{
-	border-radius: 40px;
+img{
+	border-radius: 80px;
 	width:100%;
 }
 .linha{
@@ -84,6 +84,12 @@ div a h2{
 	font-size:200%;
 	color: #3F7F6D;
 }
+div a p:hover{
+	text-decoration:none;
+}
+div a h2:hover{
+	text-decoration:none;
+}
 div p{
 	text-align:left;
 	font-family:"Potatoes And Peas";
@@ -94,14 +100,14 @@ div {
 	font-size:120%;
 }
 .container{
-	border-radius: 40px;
+	border-radius: 10px;
 }
 .corfundo{
-	background:antiquewhite;
+	background:radial-gradient(#72E5C5,#3F7F6D);
 }
 .corprojetos{
 	margin:30px;
-	background:radial-gradient(#3F7F6D,#72E5C5);
+	background:#7FFFD4;
 }
 
 
