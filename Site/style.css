@@ -1,18 +1,33 @@
 body{
 	font-family:"Potatoes And Peas";
 	text-align:center;
-	padding-top:20;
+	padding-top:5;
 }
-header{
+header nav{
+	margin-top:-5;
 	background:	radial-gradient(#72E5C5,#3F7F6D);
 	font-family:"Potatoes And Peas";
 	text-transform:uppercase;
+	right: 0;
+  	left: 0;
+	position: fixed;
+	z-index: 2;
 }
 header::after { 
     content: " ";
 	display: table;
 	clear: both;
 	background:blue;
+}
+header{
+	background-image:url("image/Pig.jpg");
+	size:200%;
+}
+header h1{
+	margin:70px;
+	position: relative;
+	transform: translateY(50%);
+	color:beige;
 }
 nav{
 	text-align:center;
@@ -37,13 +52,14 @@ nav a{
 }
 nav a:hover{
 	text-decoration:none;
-	color:	white;
+	color:#ffffe6;
 }
 nav a::before{
 	content:'';
 	display:block;
 	height:5px;
-	background-color:	white;
+	background-color:#ffffe6;
+	border-radius: 5px;
 
 	position: absolute;
 	top:0;
