@@ -1,0 +1,107 @@
+body{
+	font-family:"Potatoes And Peas";
+	text-align:center;
+	padding-top:20;
+}
+header{
+	background:	radial-gradient(#72E5C5,#3F7F6D);
+	font-family:"Potatoes And Peas";
+	text-transform:uppercase;
+}
+header::after { 
+    content: " ";
+	display: table;
+	clear: both;
+	background:blue;
+}
+nav{
+	text-align:center;
+}
+nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+nav li{
+	display:inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position:relative;
+}
+nav a{
+	color: #3F7F6D;
+	text-decoration:none;
+	font-size: 160%;
+}
+nav a:hover{
+	text-decoration:none;
+	color:	white;
+}
+nav a::before{
+	content:'';
+	display:block;
+	height:5px;
+	background-color:	white;
+
+	position: absolute;
+	top:0;
+	width:0%;
+
+	transition:all ease-in-out 200ms;
+}
+nav a:hover::before{
+	width:100%;
+}
+a img{
+	border-radius: 40px;
+	width:100%;
+}
+.linha{
+	border:1px black;
+}
+.indent{
+	margin-left:20px;
+}
+div h1{
+	font-family:"Potatoes And Peas";
+	font-size:300%;
+}
+div h2{
+	font-family:"Potatoes And Peas";
+	font-size:200%;
+}
+div a p{
+	text-align:center;
+	font-family:"Potatoes And Peas";
+	font-size:120%;
+	color: #3F7F6D;
+}
+div a h2{
+	text-align:center;
+	font-family:"Potatoes And Peas";
+	font-size:200%;
+	color: #3F7F6D;
+}
+div p{
+	text-align:left;
+	font-family:"Potatoes And Peas";
+	font-size:120%;
+}
+div {
+	font-family:"Potatoes And Peas";
+	font-size:120%;
+}
+.container{
+	border-radius: 40px;
+}
+.corfundo{
+	background:antiquewhite;
+}
+.corprojetos{
+	margin:30px;
+	background:radial-gradient(#3F7F6D,#72E5C5);
+}
+
+
