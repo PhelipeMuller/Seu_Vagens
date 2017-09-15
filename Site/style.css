@@ -1,15 +1,15 @@
 body{
 	font-family:"Potatoes And Peas";
 	text-align:center;
-	padding-top:5;
 }
-header nav{
-	margin-top:-5;
+nav{
 	background:	radial-gradient(#72E5C5,#3F7F6D);
 	font-family:"Potatoes And Peas";
 	text-transform:uppercase;
+	font-size:30px;/* tamanho da fonte da barra de navegacao*/
 	right: 0;
   	left: 0;
+
 	position: fixed;
 	z-index: 2;
 }
@@ -20,10 +20,13 @@ header::after {
 	background:blue;
 }
 header{
-	background-image:url("image/Pig.jpg");
-	size:200%;
+	background:white;/* fundo que tem que virar imagem logo menos*/
 }
-header h1{
+header div h1{
+	font-family:"Just tell me what";
+	text-transform:uppercase;
+	font-size:500%;/* tamanho da fonte do titulo (nome)*/
+	text-shadow: 3px 3px #000000;
 	margin:70px;
 	position: relative;
 	transform: translateY(50%);
@@ -39,20 +42,32 @@ nav ul{
 }
 nav li{
 	display:inline-block;
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 4%;
+	margin-right: 4%;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	position:relative;
 }
-nav a{
+nav{
 	color: #3F7F6D;
 	text-decoration:none;
-	font-size: 160%;
 }
-nav a:hover{
+nav a span{
+	color: #3F7F6D;
+	text-decoration:none;
+}
+nav div a{ <--!texto que aparece no dropdown-->
+	color: #3F7F6D;
 	text-decoration:none;
 	color:#ffffe6;
+}
+nav div a{
+	text-decoration:none;
+	color:black;
+}
+nav div a:hover{
+	text-decoration:none;
+	color:black;
 }
 nav a::before{
 	content:'';
@@ -67,47 +82,46 @@ nav a::before{
 
 	transition:all ease-in-out 200ms;
 }
+nav div a::before{
+	content:'';
+	display:block;
+	height:5px;
+	background-color:black;
+	border-radius: 5px;
+
+	position: absolute;
+	top:0;
+	width:0%;
+
+	transition:all ease-in-out 200ms;
+}
 nav a:hover::before{
 	width:100%;
+}
+div {
+	font-family:"Potatoes And Peas";
+}
+div h1{
+	font-size:400%;
+}
+div h2{
+	font-size:300%;
+}
+div a{
+	text-align:center;
+	color: #3F7F6D;
+}
+div a:hover{
+	text-decoration:none;
+	color:#ffffe6;
+}
+div p{
+	text-align:left;
+	font-size:150%; /* fonte de td */
 }
 a img{
 	border-radius: 40px;
 	width:100%;
-}
-.linha{
-	border:1px black;
-}
-.indent{
-	margin-left:20px;
-}
-div h1{
-	font-family:"Potatoes And Peas";
-	font-size:300%;
-}
-div h2{
-	font-family:"Potatoes And Peas";
-	font-size:200%;
-}
-div a p{
-	text-align:center;
-	font-family:"Potatoes And Peas";
-	font-size:120%;
-	color: #3F7F6D;
-}
-div a h2{
-	text-align:center;
-	font-family:"Potatoes And Peas";
-	font-size:200%;
-	color: #3F7F6D;
-}
-div p{
-	text-align:left;
-	font-family:"Potatoes And Peas";
-	font-size:120%;
-}
-div {
-	font-family:"Potatoes And Peas";
-	font-size:120%;
 }
 .container{
 	border-radius: 40px;
@@ -119,5 +133,21 @@ div {
 	margin:30px;
 	background:radial-gradient(#3F7F6D,#72E5C5);
 }
-
-
+.linha{
+	border:1px black;
+}
+.indent{
+	margin-left:20px;
+}	
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffe6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
