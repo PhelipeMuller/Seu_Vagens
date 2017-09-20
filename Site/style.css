@@ -106,6 +106,10 @@ div h1{
 div h2{
 	font-size:300%;
 }
+div h3{
+	font-size:250%;
+	text-align:left;
+}
 div a{
 	text-align:center;
 	color: #3F7F6D;
@@ -154,3 +158,9 @@ a img{
         transform: scale(1.07);
         transition: all 0.5s ease-in-out;
 }
+.center{
+    display: block;
+    text-align: -webkit-center;
+}
+
+
