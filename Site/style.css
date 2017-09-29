@@ -110,6 +110,9 @@ div h3{
 	font-size:250%;
 	text-align:left;
 }
+div h5{
+	text-align:left;
+}
 div a{
 	text-align:center;
 	color: #3F7F6D;
