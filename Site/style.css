@@ -120,7 +120,7 @@ div a:hover{
 }
 div p{
 	text-align:left;
-	font-size:150%; /* fonte de td */
+	font-size:180%; /* fonte de td */
 }
 a img{
 	border-radius: 40px;
@@ -162,5 +162,7 @@ a img{
     display: block;
     text-align: -webkit-center;
 }
-
+.margin{
+	margin-top: 90px;
+}
 
