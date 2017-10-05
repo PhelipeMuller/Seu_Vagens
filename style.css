@@ -1,0 +1,192 @@
+body{
+	font-family: 'Patrick Hand';
+	text-align:center;
+}
+nav{
+	background:	radial-gradient(#6CE5B9,#3B7F66);
+	font-family: 'Patrick Hand';
+	text-transform:uppercase;
+	font-size:27px;/* tamanho da fonte da barra de navegacao*/
+	right: 0;
+  	left: 0;
+
+	position: fixed;
+	z-index: 2;
+}
+header::after { 
+    content: " ";
+	display: table;
+	clear: both;
+}
+header{
+	background:#FFF7E3;
+}
+header div h1{
+	font-family:"Itim";
+	text-transform:uppercase;
+	font-size:570%;/* tamanho da fonte do titulo (nome)*/
+	text-shadow: 3px 3px #000000;
+	position: relative;
+	transform: translateY(50%);
+	color: #9B5EA6;
+}
+nav{
+	text-align:center;
+}
+nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+nav li{
+	display:inline-block;
+	margin-left: 4%;
+	margin-right: 4%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position:relative;
+}
+nav{
+	color: #3B7F66;
+	text-decoration:none;
+}
+nav a span{
+	color: #3B7F66;
+	text-decoration:none;
+}
+nav div a{ /*texto que aparece no dropdown*/
+	color: #3B7F66;
+	text-decoration:none;
+	color:#ffffe6;
+}
+nav div a{
+	text-decoration:none;
+	color:black;
+}
+nav div a:hover{
+	text-decoration:none;
+	color:black;
+}
+nav a::before{
+	content:'';
+	display:block;
+	height:5px;
+	background-color:#ffffe6;
+	border-radius: 5px;
+
+	position: absolute;
+	top:0;
+	width:0%;
+
+	transition:all ease-in-out 200ms;
+}
+nav div a::before{
+	content:'';
+	display:block;
+	height:5px;
+	background-color:black;
+	border-radius: 5px;
+
+	position: absolute;
+	top:0;
+	width:0%;
+
+	transition:all ease-in-out 200ms;
+}
+nav a:hover::before{
+	width:100%;
+}
+div {
+	font-family: 'Patrick Hand';
+}
+div a{
+	text-align:center;
+	color: #3B7F66;
+}
+div a:hover{
+	text-decoration:none;
+	color:#ffffe6;
+}
+div p{
+	text-align:left;
+	font-size:200%; /* fonte de td */
+}
+a img{
+	border-radius: 40px;
+	width:100%;
+}
+footer{
+	text-shadow: 2px 2px #000000;
+}
+.resize{
+    width: 20%;
+}
+.container{
+	border-radius: 40px;
+}
+.corfundo{
+	background:antiquewhite;
+}
+.corprojetos{
+	margin:30px;
+	background:radial-gradient(#3B7F66,#6CE5B9);
+}
+.linha{
+	border:1px black;
+}
+.indent{
+	margin-left:20px;
+}	
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffe6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.grow:hover{
+        transform: scale(1.07);
+        transition: all 0.5s ease-in-out;
+}
+.center{
+    display: block;
+    text-align: -webkit-center;
+}
+.margin{
+	margin-top: 80px;
+}
+.margin_name{
+	margin-top: 50px;
+	margin-bottom: 90px;
+}
+.thispage{
+	color: #ffffe6;
+}
+.icons{
+	font-size:50px;
+}
+.icons a{
+	color:grey;
+}
+.email:hover{
+	color:orange;
+}
+.facebook:hover{
+	color:#3b5998;
+}
+.google_plus:hover{
+	color:#d34836;
+}
+.github:hover{
+	color:#820081;
+}
+.round{
+	border-radius: 40px;
+}
+
+
