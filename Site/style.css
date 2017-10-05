@@ -3,7 +3,7 @@ body{
 	text-align:center;
 }
 nav{
-	background:	radial-gradient(#72E5C5,#3F7F6D);
+	background:	radial-gradient(#6CE5B9,#3B7F66);
 	font-family:"Potatoes And Peas";
 	text-transform:uppercase;
 	font-size:30px;/* tamanho da fonte da barra de navegacao*/
@@ -19,7 +19,7 @@ header::after {
 	clear: both;
 }
 header{
-	background:white;
+	background:#FFF7E3;
 }
 header div h1{
 	font-family:"Just tell me what";
@@ -29,7 +29,7 @@ header div h1{
 	margin:70px;
 	position: relative;
 	transform: translateY(50%);
-	color: #BAAFA0;
+	color: #9B5EA6;
 }
 nav{
 	text-align:center;
@@ -48,15 +48,15 @@ nav li{
 	position:relative;
 }
 nav{
-	color: #3F7F6D;
+	color: #3B7F66;
 	text-decoration:none;
 }
 nav a span{
-	color: #3F7F6D;
+	color: #3B7F66;
 	text-decoration:none;
 }
 nav div a{ /*texto que aparece no dropdown*/
-	color: #3F7F6D;
+	color: #3B7F66;
 	text-decoration:none;
 	color:#ffffe6;
 }
@@ -118,7 +118,7 @@ div h6{
 }
 div a{
 	text-align:center;
-	color: #3F7F6D;
+	color: #3B7F66;
 }
 div a:hover{
 	text-decoration:none;
@@ -140,7 +140,7 @@ a img{
 }
 .corprojetos{
 	margin:30px;
-	background:radial-gradient(#3F7F6D,#72E5C5);
+	background:radial-gradient(#3B7F66,#6CE5B9);
 }
 .linha{
 	border:1px black;
@@ -170,5 +170,9 @@ a img{
 }
 .margin{
 	margin-top: 90px;
+}
+
+.thispage{
+	color: #ffffe6;
 }
 
