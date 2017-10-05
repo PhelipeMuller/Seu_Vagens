@@ -3,10 +3,10 @@ body{
 	text-align:center;
 }
 nav{
-	background:	radial-gradient(#72E5C5,#3F7F6D);
-	font-family:'Patrick Hand';
+	background:	radial-gradient(#6CE5B9,#3B7F66);
+	font-family: 'Patrick Hand';
 	text-transform:uppercase;
-	font-size:30px;/* tamanho da fonte da barra de navegacao*/
+	font-size:27px;/* tamanho da fonte da barra de navegacao*/
 	right: 0;
   	left: 0;
 
@@ -19,17 +19,16 @@ header::after {
 	clear: both;
 }
 header{
-	background:white;
+	background:#FFF7E3;
 }
 header div h1{
-	font-family:"Just tell me what";
+	font-family:"Itim";
 	text-transform:uppercase;
 	font-size:570%;/* tamanho da fonte do titulo (nome)*/
 	text-shadow: 3px 3px #000000;
-	margin:70px;
 	position: relative;
 	transform: translateY(50%);
-	color: #BAAFA0;
+	color: #9B5EA6;
 }
 nav{
 	text-align:center;
@@ -48,15 +47,15 @@ nav li{
 	position:relative;
 }
 nav{
-	color: #3F7F6D;
+	color: #3B7F66;
 	text-decoration:none;
 }
 nav a span{
-	color: #3F7F6D;
+	color: #3B7F66;
 	text-decoration:none;
 }
 nav div a{ /*texto que aparece no dropdown*/
-	color: #3F7F6D;
+	color: #3B7F66;
 	text-decoration:none;
 	color:#ffffe6;
 }
@@ -98,31 +97,11 @@ nav a:hover::before{
 	width:100%;
 }
 div {
-	font-family:"Potatoes And Peas";
-}
-div h1{
-	font-size:400%;
-}
-div h2{
-	font-size:300%;
-}
-div h3{
-	font-size:250%;
-	text-align:left;
-}
-div h4{
-	font-size:200%;
-}
-div h6{
-	font-size:170%;
-}
-div h7{
-	font-size: 100%;
-	text-align: right;
+	font-family: 'Patrick Hand';
 }
 div a{
 	text-align:center;
-	color: #3F7F6D;
+	color: #3B7F66;
 }
 div a:hover{
 	text-decoration:none;
@@ -136,6 +115,9 @@ a img{
 	border-radius: 40px;
 	width:100%;
 }
+footer{
+	position:absolute bottom;
+}
 .container{
 	border-radius: 40px;
 }
@@ -144,7 +126,7 @@ a img{
 }
 .corprojetos{
 	margin:30px;
-	background:radial-gradient(#3F7F6D,#72E5C5);
+	background:radial-gradient(#3B7F66,#6CE5B9);
 }
 .linha{
 	border:1px black;
@@ -175,3 +157,31 @@ a img{
 .margin{
 	margin-top: 90px;
 }
+.margin_name{
+	margin-top: 50px;
+	margin-bottom: 90px;
+}
+.thispage{
+	color: #ffffe6;
+}
+.icons{
+	font-size:50px;
+}
+.icons a{
+	color:grey;
+}
+.email:hover{
+	color:orange;
+}
+.facebook:hover{
+	color:#3b5998;
+}
+.google_plus:hover{
+	color:#d34836;
+}
+.github:hover{
+	color:#820081;
+}
+
+
+
