@@ -1,10 +1,10 @@
 body{
-	font-family:"Potatoes And Peas";
+	font-family: 'Patrick Hand';
 	text-align:center;
 }
 nav{
-	background:	radial-gradient(#6CE5B9,#3B7F66);
-	font-family:"Potatoes And Peas";
+	background:	radial-gradient(#72E5C5,#3F7F6D);
+	font-family:'Patrick Hand';
 	text-transform:uppercase;
 	font-size:30px;/* tamanho da fonte da barra de navegacao*/
 	right: 0;
@@ -19,7 +19,7 @@ header::after {
 	clear: both;
 }
 header{
-	background:#FFF7E3;
+	background:white;
 }
 header div h1{
 	font-family:"Just tell me what";
@@ -29,7 +29,7 @@ header div h1{
 	margin:70px;
 	position: relative;
 	transform: translateY(50%);
-	color: #9B5EA6;
+	color: #BAAFA0;
 }
 nav{
 	text-align:center;
@@ -48,15 +48,15 @@ nav li{
 	position:relative;
 }
 nav{
-	color: #3B7F66;
+	color: #3F7F6D;
 	text-decoration:none;
 }
 nav a span{
-	color: #3B7F66;
+	color: #3F7F6D;
 	text-decoration:none;
 }
 nav div a{ /*texto que aparece no dropdown*/
-	color: #3B7F66;
+	color: #3F7F6D;
 	text-decoration:none;
 	color:#ffffe6;
 }
@@ -116,9 +116,13 @@ div h4{
 div h6{
 	font-size:170%;
 }
+div h7{
+	font-size: 100%;
+	text-align: right;
+}
 div a{
 	text-align:center;
-	color: #3B7F66;
+	color: #3F7F6D;
 }
 div a:hover{
 	text-decoration:none;
@@ -140,7 +144,7 @@ a img{
 }
 .corprojetos{
 	margin:30px;
-	background:radial-gradient(#3B7F66,#6CE5B9);
+	background:radial-gradient(#3F7F6D,#72E5C5);
 }
 .linha{
 	border:1px black;
@@ -171,8 +175,3 @@ a img{
 .margin{
 	margin-top: 90px;
 }
-
-.thispage{
-	color: #ffffe6;
-}
-
