@@ -116,7 +116,10 @@ a img{
 	width:100%;
 }
 footer{
-	position:absolute bottom;
+	text-shadow: 2px 2px #000000;
+}
+.resize{
+    width: 20%;
 }
 .container{
 	border-radius: 40px;
@@ -155,7 +158,7 @@ footer{
     text-align: -webkit-center;
 }
 .margin{
-	margin-top: 90px;
+	margin-top: 80px;
 }
 .margin_name{
 	margin-top: 50px;
@@ -182,6 +185,8 @@ footer{
 .github:hover{
 	color:#820081;
 }
-
+.round{
+	border-radius: 40px;
+}
 
 
