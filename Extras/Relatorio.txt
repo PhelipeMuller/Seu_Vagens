@@ -1,9 +1,0 @@
-A Melhorar:
-	Mask
-		Versão lateral para telas pequenas
-		Centralização dos textos nas caixas
-		Caixas into Botoes
-	Index
-		Ajuste do nome no projeto para telas pequenas
-		Imagem de lado a lado no container
-		container into Botao
